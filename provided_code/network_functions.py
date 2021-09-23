@@ -45,7 +45,7 @@ class PredictionModel(DefineDoseFromCT):
         self.initial_number_of_filters = 1  # 64
 
         # Define model optimizer
-        self.gen_optimizer = Adam(lr=0.0002, decay=0.001, beta_1=0.5, beta_2=0.999)
+        self.gen_optimizer = Adam(learning_rate=0.0002, decay=0.001, beta_1=0.5, beta_2=0.999)
 
         # Define place holders for model
         self.generator = None

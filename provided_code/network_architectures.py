@@ -1,8 +1,12 @@
 ''' Neural net architectures '''
 
-from tensorflow.python.keras.layers import Input, LeakyReLU, BatchNormalization, \
+# from tensorflow.python.keras.layers import Input, LeakyReLU, BatchNormalization, \
+#     Conv3D, concatenate, Activation, SpatialDropout3D, AveragePooling3D, Conv3DTranspose
+# from tensorflow.python.keras.models import Model
+
+from tensorflow.keras.layers import Input, LeakyReLU, BatchNormalization, \
     Conv3D, concatenate, Activation, SpatialDropout3D, AveragePooling3D, Conv3DTranspose
-from tensorflow.python.keras.models import Model
+from tensorflow.keras.models import Model
 
 
 class DefineDoseFromCT:
